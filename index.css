@@ -51,11 +51,14 @@ body {
     border: none;
     border-radius: 5px;
     color: #3D3D3D;
+    font-weight: bold;
 }
 
 #convert-btn:hover {
     transform: translateY(-1px);
-    box-shadow: 0 0 2px black;
+    background: #6943FF;
+    border: 1px solid white;
+    color: white;
 }
 
 #botcon {
