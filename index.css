@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    text-align: center;
+    background: #191a24;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#main-container {
+    overflow: hidden;
+    margin: 50px auto;
+    border: 5px solid #ffffff;
+    border-radius: 20px;
+    width: 550px;
+    height: 700px;
+}
+#topcon {
+    overflow: hidden;
+    margin-top: 0px;
+    background: #6943FF;
+}
+
+#title {
+    font-size: 28px;
+    margin-top: 30px;
+    color: white;
+    font-weight: bold;
+}
+
+#input-el {
+    margin-top: 15px;
+    width: 117px;
+    height: 83px;
+    background: transparent;
+    border: 2px solid #B295FF;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 58px;
+    color: white;
+}
+
+#input-el::placeholder {
+    color: white;
+}
+
+#convert-btn {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 117px;
+    height: 42px;
+    background: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    color: #3D3D3D;
+}
+
+#convert-btn:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 0 2px black;
+}
+
+#botcon {
+    overflow: hidden;
+    background: #F4F4F4;
+    height: 100%;
+}
+
+h3 {
+    color: #5A537B;
+}
+
+#length-cn {
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    background: #ffffff;
+    border: none;
+    border-radius: 5px 0 0 0;
+}
+
+p {
+    margin-top: -5px;
+    color: #353535;
+}
+
+#volume-cn {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    background: #ffffff;
+    border: none;
+    border-radius: 5px 0 0 0;
+}
+
+#mass-cn {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    background: #ffffff;
+    border: none;
+    border-radius: 5px 0 0 0;
+}
+
+/* Define the shake animation */
+@keyframes shake {
+  0% { transform: translateX(0); }
+  10% { transform: translateX(-5px); }
+  20% { transform: translateX(5px); }
+  30% { transform: translateX(-5px); }
+  40% { transform: translateX(5px); }
+  50% { transform: translateX(-5px); }
+  60% { transform: translateX(5px); }
+  70% { transform: translateX(-5px); }
+  80% { transform: translateX(5px); }
+  90% { transform: translateX(-5px); }
+  100% { transform: translateX(0); }
+}
+
+.shake {
+  animation: shake 0.5s; /* duration */
+  animation-timing-function: ease-in-out;
+}
