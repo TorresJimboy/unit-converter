@@ -1,4 +1,4 @@
-# Getting Started
+# My unit-converter
 Install the dependencies and run the project
 ```
 npm install
@@ -17,4 +17,3 @@ The Fullstack Developer Path aims to teach you everything you need to become a J
 - [Become a Scrimba Pro member](https://scrimba.com/pricing)
 
 Happy Coding! 
-testing
